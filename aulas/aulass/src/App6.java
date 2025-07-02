@@ -7,5 +7,7 @@ public class App6 {
         Book.Author = "Harlan Ellison."
         Book.ISBN = "1234567890";
         Book.Price = 999.99;
+        Book.PublishDate = "March 1967.";
+        
     }
 }

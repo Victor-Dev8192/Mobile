@@ -5,7 +5,7 @@ public class App5 {
         String Author;
         String ISBN;
         double Price;
-        String Datapub;
+        String PublishDate;
 
     }
 }
