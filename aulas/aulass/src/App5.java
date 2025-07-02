@@ -1,11 +1,11 @@
 public class App5 {
     public static void main(String[] args) {
-        String nome;
-        String descricao;
-        String autor;
-        String isbn;
-        double preco;
-        String datapub;
+        String Name;
+        String Description;
+        String Author;
+        String ISBN;
+        double Price;
+        String Datapub;
 
     }
 }
