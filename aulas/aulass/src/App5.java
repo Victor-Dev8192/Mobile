@@ -4,7 +4,7 @@ public class App5 {
     public static void main(String[] args) {
         int hour;
         try (Scanner idk = new Scanner(System.in)) {
-            System.out.print("Digite a hora na qual você chegou aqui: ");
+            System.out.println("Digite a hora na qual você chegou aqui: ");
             hour = idk.nextInt();
         }
         if (hour <= 0 | hour > 24 ) {
@@ -14,9 +14,9 @@ public class App5 {
         if (hour == 15) {
             System.out.println("Você chegou no horário correto!");
         } else if (hour < 15) {
-            System.out.printf("Você chegou adiantado!");
+            System.out.println("Você chegou adiantado!");
         } else {
-            System.out.printf("Você chegou atrasado!");
+            System.out.println("Você chegou atrasado!");
         }
     }
 }

@@ -1,5 +1,4 @@
-public class App {
-    
+public class App {  
     public static void main(String[] args) {
         String x;
         double y = (Math.round(Math.random())*10);
@@ -10,5 +9,3 @@ public class App {
         System.out.println("Resultado: " + x);
     }
 }
-//O revolver não atirou, a sua cabeça ficou 100% intacta, você sobreviveu com sucesso!//
-//O revolver atirou e explodiu a sua cabeça, morte lenta e dolorosa para você!//
