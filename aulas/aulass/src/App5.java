@@ -7,12 +7,10 @@ public class App5 {
             System.out.print("Digite a hora na qual você chegou aqui: ");
             hour = idk.nextInt();
         }
-
         if (hour <= 0 | hour > 24 ) {
             System.out.println("Horário fora do intervalo válido.");
             return;
         }
-
         if (hour == 15) {
             System.out.println("Você chegou no horário correto!");
         } else if (hour < 15) {
